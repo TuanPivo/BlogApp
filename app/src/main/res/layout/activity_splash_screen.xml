@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SplashScreen"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:textSize="25dp"
+        android:text="APP BLOG"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_marginBottom="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/image_anni"
+        android:src="@drawable/intro"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:visibility="invisible"
+        android:textSize="25dp"
+        android:text="Welcom to you"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</FrameLayout>
